@@ -3,11 +3,11 @@
 label ready:
     play music "audio/music/Drums of the Deep.mp3"
     scene bg dungeon with fade
-    G "CLANG!"
-    G "CRASH!"
-    G "A demon voice groans in pain, and a woman calls out."
+    G "ДЗЫНЬ!"
+    G "БАМС!"
+    G "Голос демона стонет от боли, а женщина зовет."
     voice "audio/voices/ner/1.ogg"
-    Gner "Damn it, Hikaru! WHAT ARE YOU DOING?! Counting the cracks in the fucking ceiling?!"
+    Gner "Черт побери, Хикару! ЧТО ТЫ ДЕЛАЕШЬ?! Считая трещины в гребаном потолке?!"
     G "I blink, surprised. I take in the scene in front of me."
     G "Nerith, the Elven warlock at my side, is facing off against two snarling minotaurs."
     G "Her short sword looks pathetically puny where it clashes against their heavy broadaxes, and a bolt of fear shoots through me."
