@@ -7,80 +7,80 @@ label ready:
     G "БАМС!"
     G "Голос демона стонет от боли, а женщина зовет."
     voice "audio/voices/ner/1.ogg"
-    Gner "Черт побери, Хикару! ЧТО ТЫ ДЕЛАЕШЬ?! Считая трещины в гребаном потолке?!"
-    G "I blink, surprised. I take in the scene in front of me."
-    G "Nerith, the Elven warlock at my side, is facing off against two snarling minotaurs."
-    G "Her short sword looks pathetically puny where it clashes against their heavy broadaxes, and a bolt of fear shoots through me."
-    G "Without questioning how I found myself in this situation, I feel my body moving automatically."
+    Gner "Черт побери, Хикару! ЧТО ТЫ ДЕЛАЕШЬ?! Считаешь трещины в гребаном потолке?!"
+    G "Я удивленно моргаю, рассматривая сцену передо мной."
+    G "Нерит, эльфийскийская колдунья, противостоит двум рычащим минотаврам."
+    G "Ее короткий меч выглядит довольно жалким, когда сталкивается с их тяжелыми широкими топорами, меня пронзает страх."
+    G "Не задаваясь вопросом, как я оказался в этой ситуации, я чувствую, что мое тело двигается автоматически."
 
 menu:
-    "Use a spell":
+    "Использовать заклинание":
         jump hikusespell
-    "Use your weapon":
+    "Используй оружие":
 
         jump hikuseweapon
 
 label hikusespell:
-    G "My fingers fly through the motions of a familiar spell, and I mumble the incantation. I wait for the warmth of fire to spread from my outstretched fingers..."
-    G "A weak jet of flame bursts from my hands, arcing through the air until it splashes against the arm of the nearest minotaur."
-    G "It grunts in mild discomfort."
-    G "... Frustration begins to set in until..."
-    G "What the hell? What's going on with my magic?"
-    G "At least I succeeded in getting its attention off of Nerith."
+    G -"Мои руки непроизвольно совершают движения, и я бормочу заклинание. Я жду, когда тепло огня распространится от моих вытянутых пальцев..."
+    G "Слабая струя пламени вырывается из моих рук, описывая дугу в воздухе, пока не ударяется о руку ближайшего минотавра.."
+    G "Он хрюкает из-за дискомфорта."
+    G "... Разочарование начинает накапливаться до тех пор, пока..."
+    G "Какого черта? Что происходит с моей магией?"
+    G "По крайней мере мне удалось отвлечь его внимание от Нерит."
     voice "audio/voices/ner/2.ogg"
-    Gner "Done being useless, yet?"
-    G "She shoots the question over her shoulder as she swipes her sword over the eyes of the other minotaur, blinding it."
-    Ghik "Something's wrong with my magic. I must be out of mana or something!"
+    Gner "Не надоело быть бесполезным?"
+    G "Она бросает вопрос через плечо, когда наносит удар мечом по глазам другого минотавра, ослепляя его."
+    Ghik "Что - то не так с моей магией. Должно быть, у меня кончилась мана или что-то в этом роде!"
     jump main1_1
 
 label hikuseweapon:
-    G "My fingers fly to the hilt of the heavy mace that should have been hanging at my side, only to come up empty."
-    G "The hell? I'm walking around completely unarmed?!"
-    G "Not seeing much else, I grab a piece of rubble from the floor of the dungeon and chuck it with all my strength at the nearest minotaur."
-    G "*Thump*" with vpunch
-    G "It glances off his back, but does catch his attention at least."
+    G "Мои пальцы тянутся к рукояти тяжелой булавы, которая должна была висеть у меня на боку, но её там не оказалось.."
+    G "Какого черта? Я хожу совершенно безоружный?!"
+    G "Не находя чего-то стоящего, я хватаю с земли гость щебня и со всей силы швыряю его в ближайшего минотавра."
+    G "*глухой удар*" with vpunch
+    G "Она отскочил от его спины, но, по крайней мере, привлек внимание."
     voice "audio/voices/ner/3.ogg"
-    Gner "A rock? Really?!"
+    Gner "Кидаться камнями? Ты серьезно?!"
     jump main1_1
 
 label main1_1:
-    G "The minotaur seems to decide that I am too annoying to live, and abandons it's tussle with Nerith to shamble my way instead."
-    G "Shit..."
-    G "Her hands wave through the complicated motions of a spell and when she expels her breath, a cloud of icy vapor pours over the two monsters, freezing them into solid statues."
-    G "Before I can do more than panic, Nerith leaps into action."
-    G "Then with complete nonchalance, she kicks one over, shattering it into several large pieces."
-    G "There are... bits... everywhere, and the dead minotaur's arm skitters over to land next to my foot."
-    G "Nausea rolls in my stomach, and I try to focus on what Nerith is saying to distract myself."
+    G "Минотавр, кажется, решил, что я слишком раздражаю, чтобы оставлять меня в живых и, останавливая борьбу с Нерит, ковыляет ко мне."
+    G "Вот дерьмо..."
+    G "Ее руки выполняют сложные движения, и когда она выдыхает, облако ледяного пара окутывает двух монстров, превращая их в твердые статуи.."
+    G "Прежде чем я успел запаниковать, Нерит начала действовать."
+    G "Она с полным безразличием пинает одного из них, разбивая на несколько больших кусков."
+    G "Вокруг... кусочки... повсюду, и рука мертвого минотавра скатывается к моей ноге."
+    G "К горлу подкатывает тошнота, а я пытаюсь сосредоточиться на том, что говорит Нерит, чтобы отвлечься.."
     show bg dungeon blur with dissolve
     show nerith pissed with moveinleft
     voice "audio/voices/ner/4.ogg"
-    Gner "Such a damn waste. All that pretty loot... All because YOU decided to do nothing but waste air on this mission."
+    Gner "Чертовское расточительство. Это был бы недурный лут... И все потому, что ТЫ решил ничего не делать, только попусту тратил воздух вокруг."
     show nerith fight with dissolve
-    G "After toppling over the second statue and looking sadly at the shattered remains of her loot, she glares over at me."
+    G "Опрокинув вторую статую и печально глядя на разбитые остатки своей добычи, она перевела взгляд на меня."
     show bg dungeon
     hide nerith
     with dissolve
-    G "I can't help but quail a little bit. She's pretty damn terrifying when she's pissed."
-    G "I'm not sure what happened. I looked down and--"
-    G "Suddenly, she interrupts in a carefully disinterested tone."
+    G "Я не мог оправдаться и немного вздрогнул. Она чертовски милая, когда злится."
+    G "Я не знаю, что произошло. Я посмотрел вниз и ... --"
+    G "Внезапно она прерывает меня абсолютно равнодушным тоном:."
     show bg dungeon blur
     show nerith disapointed
     with dissolve
     voice "audio/voices/ner/5.ogg"
-    Gner "You all right?"
-    G "It seems crazy that I didn't notice sooner, but there is a slowly spreading bloodstain just above my stomach."
-    G "I look down."
-    G "Not feeling pain... That's a bad thing, right?"
-    G "The sight is almost as alarming as the realization that it doesn't hurt at all."
-    Ghik "What the--? I don't even remember getting this!"
+    Gner "Ты в порядке?"
+    G "Это покажется безумием, но я не заметил как прямо у моего живота медленно расползается кровавое пятно."
+    G "Я смотрю вниз."
+    G "Не чувствую боли... Это плохой знак, да?"
+    G "Зрелище почти такое же тревожное, как и осознание того, что совсем не больно."
+    Ghik "Что за--? Я даже не помню, как поранился!"
     show nerith pissed with dissolve
     voice "audio/voices/ner/6.ogg"
-    Gner "Well what did you expect, showing up dressed like that? Idiot..."
-    G "It all suddenly becomes clear."
-    G "I'm wearing my school uniform."
-    G "I shouldn't be here. I CAN'T be here. Nerith IS me, in the..."
+    Gner "А чего ты ожидал, явившись в таком виде? Идиот..."
+    G "Все вдруг становится ясно."
+    G "На мне надета школьная форма."
+    G "Я не должен быть здесь. Я НЕ МОГУ быть здесь. Нерит-это я, в..."
     stop music fadeout 3.0
-    G "...Game."
+    G "...игре."
 
 
     scene bg classroom with fade

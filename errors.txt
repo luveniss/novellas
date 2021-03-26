@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/c1.rpy", line 24: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        G - Мои руки непроизвольно совершают движения, и я бормочу заклинание. Я жду, когда тепло огня распространится от моих вытянутых пальцев..."
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Thu Mar 25 23:44:05 2021
