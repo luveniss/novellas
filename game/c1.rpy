@@ -5,7 +5,7 @@ label ready:
     scene bg dungeon with fade
     G "ДЗЫНЬ!"
     G "БАМС!"
-    G "Голос демона стонет от боли, а женщина зовет."
+    G "Демон стонет от боли, а девушка кричит."
     voice "audio/voices/ner/1.ogg"
     Gner "Черт побери, Хикару! ЧТО ТЫ ДЕЛАЕШЬ?! Считаешь трещины в гребаном потолке?!"
     G "Я удивленно моргаю, рассматривая сцену передо мной."
@@ -54,7 +54,7 @@ label main1_1:
     show bg dungeon blur with dissolve
     show nerith pissed with moveinleft
     voice "audio/voices/ner/4.ogg"
-    Gner "Чертовское расточительство. Это был бы недурный лут... И все потому, что ТЫ решил ничего не делать, только попусту тратил воздух вокруг."
+    Gner "Чертовское расточительство. Это был бы недурный лут... но ТЫ решил ничего не делать, только попусту тратил воздух вокруг."
     show nerith fight with dissolve
     G "Опрокинув вторую статую и печально глядя на разбитые остатки своей добычи, она перевела взгляд на меня."
     show bg dungeon
@@ -71,202 +71,202 @@ label main1_1:
     G "Это покажется безумием, но я не заметил как прямо у моего живота медленно расползается кровавое пятно."
     G "Я смотрю вниз."
     G "Не чувствую боли... Это плохой знак, да?"
-    G "Зрелище почти такое же тревожное, как и осознание того, что совсем не больно."
+    G "Зрелище почти такое же тревожное, как и осознание того, что я ничего не чувствую."
     Ghik "Что за--? Я даже не помню, как поранился!"
     show nerith pissed with dissolve
     voice "audio/voices/ner/6.ogg"
     Gner "А чего ты ожидал, явившись в таком виде? Идиот..."
     G "Все вдруг становится ясно."
     G "На мне надета школьная форма."
-    G "Я не должен быть здесь. Я НЕ МОГУ быть здесь. Нерит-это я, в..."
+    G "Я не должен быть здесь. Я НЕ МОГУ быть здесь. Нерит-это я, во..."
     stop music fadeout 3.0
-    G "...игре."
+    G "...сне."
 
 
     scene bg classroom with fade
 
 
-    hik "(SNORT) Wha...?"
+    hik "(ФРК) Чт...?"
     play music "audio/music/Hidden Agenda.mp3"
     voice "audio/voices/aga/1.ogg"
-    aga "...And how was your nap, Izumi-san?"
+    aga "...Как поспала, Идзуми-сан?"
     show bg classroom blur with dissolve
     show agano plain with moveinleft
-    "The entire class is laughing so hard, I fantasize briefly about vanishing into the floor."
-    "The worst part is embarrassing myself in front of Agano-sensei, though. This isn't quite as bad as the time I fell asleep and had a dirty dream about her in the middle of class, and at least there's no drool..."
+    "Весь класс так хохочет, что мне хочется провалиться сквозь землю.."
+    "Самое ужасное - опозориться перед Агано-сэнсэем.. Хотя не так плохо, как в тот раз, когда я заснул и увидел грязный сон о ней посреди урока, и, по крайней мере, сейчас у меня не текут слюни..."
     show agano happy with dissolve
     voice "audio/voices/aga/2.ogg"
-    aga "Go stand in the hallway, Izumi. I'll deal with you in a minute."
+    aga "Подожди в коридоре, Идзуми. Я разберусь с тобой через минуту."
     show bg classroom
     hide agano
     with dissolve
     show bg hallway with fade
-    "I feel my face flush in humiliation as I make the walk of shame through the classroom, trying my best to ignore the snickers and giggles."
-    "It's a small relief to shut the door behind me, but I hate that Agano-sensei is disappointed... again."
-    "Especially since the nap really wasn't worth the embarrassment."
-    hik "What a lame dream... Fighting beside my game character, and failing at it? Even in my imagination I'm a freaking loser."
-    "Thinking back to battle, I can easily place the setting, now that I'm not asleep. It looked like the final level before the end of the Lich Lord quest."
-    hik "Maybe I'm subconsciously trying to remind myself I need to max out her level before the expansion gets released..."
-    "And as it always is, thinking about {i}Celestial Crossing{/i} is the metaphorical balm on my soul."
-    hik "{i}Crossing-Con{/i} is coming up too... I need to at least grind through Lich Lord Keep and maybe the Forest to--"
+    "Я чувствую, как мое лицо краснеет от унижения, когда я позорно иду по классу, изо всех сил стараясь игнорировать насмешки и хихиканье."
+    "Это небольшое облегчение - закрыть за собой дверь, но я вижу, что Агано-сенсей разочарована... снова."
+    "Тем более что сон действительно стоил такого смущения."
+    hik "Что за дурацкий сон... Сражаться рядом с моим игровым персонажем, и потерпеть неудачу? Даже в своем воображении я долбаный неудачник."
+    "Мысленно возвращаясь к битве, я легко могу победить, теперь, когда я не сплю. Это выглядело как последний уровень перед окончанием квеста Господина Света."
+    hik "Может, я подсознательно пытаюсь напомнить себе, что мне нужно максимизировать ее уровень, прежде чем расширение будет выпущено..."
+    "И как это всегда бывает, мысли {i}Небесном пересечении{/i} это метафорический бальзам на мою душу."
+    hik "{i}Crossing-Con{/i} тоже скоро появится... Во всяком случае мне нужно изучить Замок Господина Света и, возможно, лес рядом, чтобы--"
     voice "audio/voices/aga/3.ogg"
-    aga "--Keep falling asleep in my class, again?"
+    aga "--Продолжаешь спать в моем классе, снова?"
     show bg hallway blur with dissolve
     show agano happy with moveinleft
-    "My automatic reaction is to squeak out her name, but it comes out sounding like..."
-    hik "Ak!"
+    "Автоматической реакцией моих связок было - пискнуть ее имя, но оно звучит как..."
+    hik "Аг!"
     show agano plain with dissolve
     voice "audio/voices/aga/4.ogg"
-    aga "If you spent more time at home sleeping properly and less time playing games, maybe we wouldn't have to have this little chat once a week."
-    hik "Y-yes, ma'am."
-    "Her gaze is stern at first, but as she sighs, the wind seems to go out of her."
+    aga "Если бы ты проводил больше времени дома, нормально спал и меньше времени играл в игры, может быть, нам не пришлось бы проводить эту маленькую беседу каждую неделю."
+    hik "Д-да, мэм."
+    "Сначала ее взгляд суров, но когда она выдыхает, злость, кажется, уходит из нее.."
     voice "audio/voices/aga/5.ogg"
-    aga "Honestly, Izumi-san... It's not as though you're a bad student when you apply yourself! I know your father isn't home... but I need you to try harder..."
-    "My face heats up and I hang my head like an idiot."
+    aga "Честное слово, Идзуми-сан... Это не значит, что ты плохой ученик, когда занимаешься собой! Я знаю, что у тебя не осталось отца... но мне нужно, чтобы ты старался еще больше..."
+    "Мое лицо вспыхивает румянцем и я опускаю голову как идиот."
     show bg hallway
     hide agano
     with dissolve
-    "At eighteen years of age, I'm way too old to be falling asleep in class all the time, barely passing all my subjects."
-    "I KNOW this."
+    "Мне восемнадцать лет, я слишком взрослый, чтобы постоянно засыпать в классе, пропуская все предметы."
+    "Я ПОНИМАЮ это."
     show bg sky afternoon with fade
     stop music fadeout 3.0
-    "If only it was as easy to level up in real life as it is in a game..."
+    "Если бы только в реальной жизни было так же легко повышать уровень, как в игре..."
 
-    "It's hard not to drift back into a daydream as she scolds me, but I manage not to."
-    "The rest of the day passes by in a fog of sleepiness amid the judgmental stares of my classmates..."
+    "Трудно не погрузиться в сон, когда она ругает меня, но мне это удается.."
+    "Остаток дня проходит в тумане сонливости под осуждающими взглядами одноклассников..."
 
 
     scene bg street afternoon with fade
-    "...The walk home is peaceful by comparison."
-    "I'm close to the apartment complex I live in, when I see a familiar head turn the adjacent corner."
+    "...Дорога домой была намного спокойнее."
+    "Я уже подходил к жилому комплексу, в котором живу, когда увидел свою знакомую, поворачивающую из-за соседнего угла."
     voice "audio/voices/mik/1.ogg"
-    mik "Oh! Hey, Hikaru-kun. Heading home?"
+    mik "О! Эй, Хикару-кун. Направляешься домой?"
     play music "audio/music/Montauk Point.mp3"
     show bg street afternoon blur
     show mika grocery smile
     with dissolve
-    "Why? WHY do I blush every time she so much as looks as me?"
+    "Почему? ПОЧЕМУ я краснею каждый раз, когда она смотрит на меня?"
     show mika grocery with dissolve
-    hik "Uh... yeah. I just got out of school."
-    "Of course she knows that! The time of day and the uniform make it fairly obvious, idiot."
-    "Time to deflect. DEFLECT."
-    hik "You went grocery shopping?"
-    "I motion lamely toward the plastic bags she's holding. They look a little heavy."
-    "By some miracle, she actually smiles."
+    hik "Уф... да. Я только что из школы."
+    "Конечно она знает об этом! По времени и школьной форме на мне это очевидно, идиот."
+    "Время отвести взгляд. ОТВЕСТИ."
+    hik "Ты ходила за продуктами?"
+    "Я неуклюже указываю на пакеты, которые она держит. Они выглядят довольно тяжелыми."
+    "Она широко улыбается."
     show mika grocery smile with dissolve
     voice "audio/voices/mik/2.ogg"
-    mik "Uh-huh! I got some ingredients to make dinner tonight."
-    "She laughs lightly before giving me a mock-angry look."
+    mik "Ага! Я купила всё, чтобы приготовить ужин сегодня вечером."
+    "Она слегка смеется, прежде чем одарить меня притворно-сердитым взглядом.."
     voice "audio/voices/mik/3.ogg"
-    mik "It figures that we'd bump into each other when I have food. It seems like the only time you ever see me is when I'm trying to feed you!"
-    hik "S-sorry, Mika-chan."
-    "She throws her elbow playfully at my midsection."
-    "It takes all of my willpower not to grunt like a little sissy."
-    "She's completely wrong, of course. In the entire span of time we've known each other as next-door neighbors, I don't think I've sought her out once."
-    "In fact, up until my mother passed away, I got the sense that she didn't even like me."
-    "She stopped coming over to play when she entered junior high two years ahead of me. It wasn't hard to figure out that she probably didn't want a little kid hanging around with her older friends."
-    "When Mom passed, though, she started showing up again. Mostly with food, but also sometimes just to make sure I was taking care of myself."
+    mik "Так уж совпало, что мы встретились когда у меня есть еда. Кажется, ты видишь меня только тогда, когда я пытаюсь тебя накормить!"
+    hik "П-прости, Мика-тян."
+    "Она игриво тычет мне локтем в живот."
+    "Мне требуется вся моя сила воли, чтобы не хрюкнуть, как маленькая свинка."
+    "Конечно, она совершенно не права. За все то время, что мы знакомы как соседи, я, кажется, ни разу ее не искал."
+    "На самом деле, до тех пор, пока моя мать не умерла, у меня было ощущение, что она даже недолюбливала меня."
+    "Она перестала приходить играть, когда поступила в среднюю школу. На два года раньше меня. Нетрудно было догадаться, что она, вероятно, не хотела, чтобы маленький ребенок общался с ее старшими друзьями."
+    "Но когда мама умерла, она снова начала появляться. В основном с едой, но иногда просто чтобы убедиться, что я забочусь о себе."
     show mika grocery sad with dissolve
     voice "audio/voices/mik/4.ogg"
-    mik "Mou, Hikaru-kun... Can you please try to be a little more comfortable with me? We've known each other since we were practically in diapers!"
+    mik "Моу, Хикару-кун... Попытайся чувствовать себя комфортнее рядом со мной. Мы знаем друг друга чуть ли не с пеленок!"
     show mika grocery with dissolve
     voice "audio/voices/mik/5.ogg"
-    mik "Actually, do you think I could walk home with you? I wouldn't mind some company."
-    "I feel the skin under my collar go hot."
-    "I've always been in love with her, of course... but with her looks and the fact that she's already dating real men at her university, I have less than a snowball's chance in hell."
-    "I'm pretty sure I nod or something, because Mika continues smiling and falls into step beside me."
-    "The silence that falls between us is painfully awkward."
-    "I feel myself start to sweat a little as we pass by the park and a couple houses."
-    "There are still a good two or three blocks before we make it home and I have no idea how to entertain her."
+    mik "Разрешишь пойти с тобой домой? Я бы не отказалась от приятной компании."
+    "Я чувствую, как кожа под воротником становится горячей."
+    "Конечно, я всегда был в нее влюблен... но с ее внешностью и тем фактом, что она уже встречается с настроящими мужчинами в своем университете, у меня меньше шансов, чем у снежного кома в аду."
+    "Я почти уверен, что киваю или что-то в этом роде, потому что Мика продолжает улыбаться и идет рядом со мной."
+    "Наступившее между нами молчание становится болезненно неловким."
+    "Я чувствую, что начинаю немного потеть, пока мы проходим парк и пару домов."
+    "До дома еще добрых два-три квартала, и я понятия не имею, как ее развлечь."
 
 menu:
-    "Offer to carry her bags":
+    "Предложить помочь с сумками":
 
         $ count += 1
         jump carrybags
-    "Make small talk":
+    "Поболтать":
         jump smalltalk
 
 label carrybags:
-    hik "Those look heavy... I could carry them for you if you want."
+    hik "Они выглядят тяжелыми... Я понесу их за тебя, если хочешь."
     show mika grocery smile with dissolve
     voice "audio/voices/mik/6.ogg"
-    mik "Oh! Sure."
-    "She looks pleasantly surprised at my offer and I feel an unfamiliar surge of self-confidence."
+    mik "Оу! Конечно."
+    "Она выглядит приятно удивленной моим предложением, и я чувствую неожиданный прилив уверенности в себе."
     hide mika
     show bg street afternoon
     with dissolve
-    "I reach out and take hold of the groceries."
-    "They're a little heavier than I anticipated, but I force my muscles to relax and not look like I'm straining too hard to carry them."
+    "Я протягиваю руку и беру пакеты."
+    "Они немного тяжелее, чем я ожидал, но я заставляю свои мышцы расслабиться и не выглядеть так, будто я слишком сильно напрягаюсь, чтобы нести их."
     show mika smile
     show bg street afternoon blur
     with dissolve
-    "I ask the question before I really think about it."
-    hik "What'd you get?"
+    "Я задаю этот вопрос прежде, чем по-настоящему задумываюсь."
+    hik "Что ты купила?"
     voice "audio/voices/mik/7.ogg"
-    mik "You're being unusually assertive today."
-    "She looks quietly amused for a minute – like she's laughing at some inner joke – before casually moving on."
+    mik "Ты сегодня необычайно напорист."
+    "Она выглядит спокойно удивленной. В течение минуты – как будто она смеется над какой – то внутренней шуткой-прежде чем небрежно двинуться дальше."
     voice "audio/voices/mik/8.ogg"
-    mik "I bought some extra things to make your favorite: beef stew."
-    hik "MY favorite?"
-    "Mika rolls her eyes."
+    mik "Я купил всё, чтобы приготовить твою любимую тушеную говядину."
+    hik "МОЮ любимую?"
+    "Мика закатывает глаза."
     show mika normal with dissolve
     voice "audio/voices/mik/9.ogg"
-    mik "Yes, YOUR favorite. It's been a while since I cooked for you last, hasn't it?"
-    "A warm feeling rises in my chest and I look down at her. Cooking for a guy is a girlfriend thing, isn't it?"
+    mik "Да, ТВОЮ любимую. Давненько я не готовила для тебя, не так ли?"
+    "Теплое чувство поднимается в моей груди, и я смотрю на нее сверху вниз. Готовить для парня - это дело его девушки, ведь так?"
     show mika smile with dissolve
     voice "audio/voices/mik/10.ogg"
-    mik "...and let's face it, you could use the extra calories. When was the last time you ate something that didn't come out of a styrofoam cup?"
-    "The warm feeling drops back down to my stomach where it belongs."
-    "Snowball's chance in hell, remember?"
+    mik "...и давай посмотрим правде в глаза, тебе не помешают лишние калории. Когда ты в последний раз ел что-то кроме дешевой завариваемой лапши?"
+    "Теплое чувство возвращается обратно в мой живот, где ему и место."
+    "Шанс Снежка в аду, помнишь?"
     show bg apartment hallway
     hide mika
     with fade
-    "We reach the apartments and head up to the third floor where we live."
-    "I start puffing by the second landing, but if she notices, she's kind enough to pretend not to."
+    "Мы добрались до квартиры и поднимаемся на третий этаж, где живем."
+    "Я начинаю пыхтеть уже на втором лестничном пролете, если она и правда замечает этого, то делает вид, что это так."
     show bg apartment hallway blur
     show mika grocery smile
     with dissolve
     voice "audio/voices/mik/11.ogg"
-    mik "Thanks for your help, Hikaru-kun. I'll come over later when the food's ready, okay?"
-    "She takes the bags from me and her fingers accidentally brush against mine."
+    mik "Спасибо за помощь, Хикару-кун. Я вернусь, когда еда будет готова, хорошо?"
+    "Она берет у меня пакеты и ее пальцы случайно задевают мои."
     show bg apartment hallway
     hide mika
     with dissolve
-    "The innocent contact sends a shiver through me, and by the time she smiles sweetly in thanks, I'm ready to flee back to the lonely, quiet lair I call home."
+    "Невинный контакт вызывает во мне дрожь, и к тому времени, когда она мило улыбается в знак благодарности, я готов бежать обратно в одинокое тихое логово, которое я называю домом."
     jump main1_2
 
 label smalltalk:
-    hik "H-how's school going?"
+    hik "К-как дела в школе?"
     show mika grocery smile with dissolve
-    "Mika's smile is friendly and a little relieved, as if she was equally bothered by the tension."
+    "Улыбка Мики дружелюбная и немного облегченная, как будто ее в равной степени беспокоило напряжение."
     voice "audio/voices/mik/12.ogg"
-    mik "Not too bad, but the workload is pretty intense. Industrial chemistry isn't a field to get into if you want to have any kind of social life."
-    hik "You mean, you don't have much free time anymore?"
+    mik "Не так уж плохо, хотя грузят действительно сильно. Промышленная химия - это не та область, которую нужно выбрать, если вы хотите иметь какую-либо социальную жизнь."
+    hik "Ты хочешь сказать, что у тебя больше нет свободного времени?"
     show mika grocery sad with dissolve
     voice "audio/voices/mik/13.ogg"
-    mik "Right. I can't remember the last time I went out with friends or on dates."
-    "I try not to perk up too noticeably at the last part. Mika turns her attention back to me and her grin widens."
+    mik "Верно. Я не помню, когда в последний раз встречалась с друзьями или ходила на свидания."
+    "Я стараюсь не слишком радоваться последней части. Мика снова обращает свое внимание на меня, и ее улыбка становится шире."
     show mika grocery smile with dissolve
     voice "audio/voices/mik/14.ogg"
-    mik "This doesn't count as a free time activity, by the way. I ALWAYS have time to cook for you, Hikaru-kun."
-    "My mouth gapes open a little at her casual admission. I feel my heart start to beat faster..."
+    mik "Кстати, это не считается занятием в свободное время. У меня ВСЕГДА есть время готовить для тебя, Хикару-кун."
+    "Мой рот слегка приоткрывается от ее небрежного признания. Я чувствую, как мое сердце начинает биться быстрее..."
     voice "audio/voices/mik/15.ogg"
-    mik "You need all the home-cooked meals you can get! You'll have a much easier time getting a girlfriend once you've bulked up a bit."
+    mik "Не отказывайся от домашней еды, которую ты можешь получить! Тебе будет гораздо легче завести подружку, если ты немного напьешься."
     show bg street afternoon
     hide mika
     with dissolve
-    "I shut my mouth with a grimace."
-    "Snowball's chance in hell, Hikaru. Snowball's chance in hell."
+    "Я с гримасой закрыл рот."
+    "Шанс снежка в аду, Хикару. Шанс снежка в аду."
     show bg apartment hallway with fade
-    "We reach the apartments and head up to the third floor where we live."
-    "Mika is puffing with exertion by the time we reach the second landing and I feel a little guilty for not offering to carry her groceries."
-    "Still, her smile is genuinely sweet when she says goodbye at her front door."
+    "Мы добираемся до квартиры и поднимаемся на третий этаж, где живем."
+    "Мика пыхтит от напряжения к тому времени, как мы достигаем второго проема, и я чувствую себя немного виноватым за то, что не предложил ей помощь."
+    "Тем не менее, ее улыбка была по-настоящему сладкой во время прощания."
     show bg apartment hallway blur
     show mika grocery smile
     with dissolve
     voice "audio/voices/mik/16.ogg"
-    mik "I'll bring by some stew later, Hikaru-kun. Thanks for walking me home!"
+    mik "Позже я принесу тебе тушеного мяса, Хикару-кун. Спасибо, что проводил меня домой!"
     hide mika
     show bg apartment hallway
     with dissolve
@@ -274,27 +274,27 @@ label smalltalk:
 
 label main1_2:
 
-    "I unlock and enter the apartment, placing my shoes on the rack by the door."
+    "Я отпираю дверь и вхожу в квартиру, ставлю туфли на подставку у двери."
     scene bg bedroom afternoon with fade
-    hik "Home sweet home..."
+    hik "Дом, милый дом..."
     stop music fadeout 3.0
-    "My voice sounds small and depressed."
-    "Ugh... time to log some hours into {i}Celestial Crossing{/i} before anything else happens to remind me how pathetic I am."
+    "Мой голос звучит тихо и подавленно."
+    "Тьфу... пора бы войти в систему {i}небесного пересечения{/i}, прежде чем случится что-нибудь еще, что напомнит мне о том, насколько я жалок."
 
 
     scene bg bedroom night with fade
-    "Hours later, I'm feeling pretty good about myself."
-    "Mika's beef stew is a distant memory now, and the empty dishes are stacked on top of the incomplete homework assignment I should really get started on."
-    "I glance at the clock and realize it's already midnight."
-    hik "Crap... I'm gonna fall asleep in class again."
-    "It's hard to feel upset about it while staring at Nerith's character screen where the word MAX stares back at me in big green letters over the player level."
-    "Happy that I've achieved my goals for the day, I save and log off."
-    "I realize belatedly that I'm still wearing my uniform when I topple on top of the covers to get some shut-eye."
-    hik "Screw it."
+    "Несколько часов спустя я чувствую себя довольно хорошо."
+    "Тушеная говядина Мики - теперь приятное воспоминание, пустые тарелки сложены поверх незаконченного домашнего задания, которого мне действительно пора начинать делать..."
+    "Я смотрю на часы и понимаю, что уже полночь."
+    hik "Дерьмо... Я снова засну на уроке."
+    "Трудно расстраиваться из-за этого, когда видишь на экране Нерит, слово МАКС смотрит на меня большими зелеными буквами над уровнем игрока."
+    "Довольный тем, что я достиг своих целей на этот день, я сохраняюсь и выхожу из системы."
+    "Я запоздало осознаю, что все еще не переоделся из формы в домашнее только когда заваливаюсь на одеяло, чтобы хоть немного вздремнуть."
+    hik "К черту все."
     show bg sky night with fade
-    "Agano-sensei will overlook a wrinkled uniform if she can get me to stay awake the whole day for once."
-    "With that final thought in mind, I feel myself drift peacefully into slumber."
-    "My dreams decide to pick up right where they left off."
+    "Агано-сенсей не обратит внимания на помятую рубашку, если ей хоть раз удастся заставить меня бодрствовать целый день."
+    "С этой последней мыслью я чувствую, как мирно погружаюсь в сон.."
+    "Мои сны решили продолжить с того места, где они остановились."
 
 
     play music "audio/music/Drums of the Deep.mp3"
@@ -305,82 +305,82 @@ label main1_2:
     show nerith spell
     with fade
     voice "audio/voices/ner/7.ogg"
-    Gner "You'd better be okay now, Useless."
-    G "Instead of reacting to the new nickname – I'm pretty sure I've earned it by this point – I place a hand on the fully healed wound above my stomach."
+    Gner "Теперь тебе лучше быть в порядке, Бесполезный."
+    G "Вместо того, чтобы отреагировать на новое прозвище – я почти уверен, что заслужил его к этому моменту, – я кладу руку на полностью зажившую рану над моим животом."
     show nerith fight with dissolve
     voice "audio/voices/ner/8.ogg"
-    Gner "That was my last healing spell, so if we get mortally injured by the Lich, we're shit out of luck."
-    G "She delivers a quick, perfunctory smack to my shoulder and sneers."
+    Gner "Это было мое последнее исцеляющее заклинание, так что если мы смертельно пострадаем от Лича, нам чертовски не повезет."
+    G "Она быстро, небрежно шлепает меня по плечу и усмехается."
     voice "audio/voices/ner/9.ogg"
-    Gner "Don't make me regret it."
+    Gner "Не заставь меня пожалеть об этом."
     show bg dungeon
     hide nerith
     with dissolve
-    G "She shoulders her weapon and leads the way toward a set of stairs that spirals down to the lower level of the keep."
+    G "Она взваливает на плечи свое оружие и ведет его к лестнице, которая спиралью спускается на нижний уровень замка."
     show bg keep with dissolve
 
-    G "I follow, wondering why the layout of the corridor feels so hauntingly familiar."
-    G "It hits me that I'm dreaming."
-    G "I'm lucid, but this is definitely a dream."
+    G "Я иду следом, удивляясь, почему коридор кажется таким навязчиво знакомым."
+    G "До меня доходит, что я сплю."
+    G "Я осознаю, что происходит, но это определенно сон."
 
-    G "As we continue to trek downward, the details come to me slowly as if I were dragging a waterlogged boat up from the bottom of a lake."
-    G "We enter a short, dark corridor that ends in a portal of swirling purple energy."
-    G "Nerith approaches it fearlessly, even as the final piece snaps into place within my memory."
+    G "По мере того как мы продолжаем спускаться вниз, до меня медленно доходят детали, как будто я тащу затопленную лодку со дна озера.."
+    G "Мы входим в короткий, темный коридор, который заканчивается порталом закрученной фиолетовой энергии."
+    G "Нерит бесстрашно приближается к нему, даже когда последняя часть встает на место в моей памяти."
     stop music fadeout 3.0
-    G "Game."
-    G "I'm in the game."
-    G "This is the final level of the Lich Lord's Keep, right before the boss, which means... we're about to walk through the portal..."
-    G "...right into a veritable mine field of magical traps."
-    G "Nerith is almost within reach, and she gives me a strange look as the two of us pass through the portal."
-    G "There's no turning back now, and if either of us takes another step, we're going to end up as a smear of charcoal on the floor."
+    G "Игра."
+    G "Я в игре."
+    G "Это последний уровень Замка Господина Света, прямо перед боссом, что означает... мы собираемся пройти через портал..."
+    G "...прямо в настоящее минное поле из магических ловушек."
+    G "Нерит почти в пределах досягаемости, и она бросает на меня странный взгляд, когда мы вдвоем проходим через портал.."
+    G "Теперь пути назад нет, и если кто-то из нас сделает неверный шаг, мы закончим тем, что превратимся в угольное пятно на полу.."
     play music "audio/music/Mystic Force.mp3"
 
 
 menu:
-    "Call out a warning!":
+    "Выкрикнуть предупреждение!":
         jump callwarning
-    "Pull Nerith back!":
+    "Оттащить Нерит назад!":
 
         jump pullherback
 
 label callwarning:
-    Ghik "WAIT, NERITH! I KNOW--"
-    G "Horrified at my sudden outburst, Nerith lunges at me, slapping her hand painfully across my mouth. Her voice is somewhere between a shout and a whisper when she hisses in my ear."
+    Ghik "ПОДОЖДИ, НЕРИТ! Я ЗНАЮ--"
+    G "Ужаснувшись моей внезапной вспышке, Нерит бросается на меня, больно хлопая рукой по моему рту. Ее голос звучит где-то между криком и шепотом, когда она шипит мне в ухо."
     show bg keep blur
     show nerith pissed
     with dissolve
     voice "audio/voices/ner/10.ogg"
-    Gner "Are you MENTALLY CHALLENGED?! You're going to get us both killed, you stupid piece of--"
-    G "A dark, disembodied voice begins chanting from the opposite end of the corridor."
-    G "Clearly, even without setting off the traps, we've been noticed."
+    Gner "Ты УМСТВЕННО ОТСТАЛЫЙ?! Из-за тебя нас обоих убьют, тупой кусок дерьма.--"
+    G "Темный, бестелесный голос начинает петь с противоположного конца коридора."
+    G "Ясно, что даже без помощи ловушек нас заметили."
     voice "audio/voices/ner/11.ogg"
-    Gner "SHIT!"
+    Gner "ДЕРЬМО!"
     show bg keep
     hide nerith
     with dissolve
-    G "She has time to shoot me a look of pure murder, before we are both engulfed with dark magic."
-    G "Flames spurt down the halls, shooting toward us."
-    G "Death seems absolutely certain."
+    G "Она успевает бросить на меня убийственный взгляд, прежде чем нас обоих поглотила темная магия."
+    G "Пламя струится по коридорам, устремляясь к нам."
+    G "Смерть кажется абсолютно неизбежной."
     jump main1_3
 
 label pullherback:
-    G "I reach out in a blind panic and snatch at Nerith's arm, ready to yank her out of harm's way."
-    G "Nerith, however, is having none of it."
-    G "Not used to being manhandled, she fights against my grip, squawking in outrage."
+    G "В слепой панике я хватаю Нерит за руку, готовый оттащить ее подальше."
+    G "Нерит, однако, против моих порывов."
+    G "Не привыкшая к рукоприкладству, она борется с моей хваткой, возмущенно вскрикивая."
     show bg keep blur
     show nerith pissed
     with dissolve
     voice "audio/voices/ner/12.ogg"
-    Gner "Hands OFF, Useless!"
-    G "I failed to take into account how much stronger than me she actually is."
-    G "With a final triumphant jerk, she shakes me off and the momentum carries her that last fateful step into the hallway."
+    Gner "Руки ПРОЧЬ, Бесполезно!"
+    G "Я не учел, насколько она на самом деле сильнее меня."
+    G "С последним торжествующим рывком она стряхивает меня, и инерция несет ее на последний роковой шаг в коридор."
     show bg keep
     hide nerith
     with dissolve
-    G "We both freeze at the ominous click of a trap triggering."
-    G "Flames and dark magic shoot out from every conceivable surface, blinding us."
-    G "Echoing laughter is the last thing we hear as the corridor goes black."
-    G "We don't even have time to scream..."
+    G "Мы оба замираем от зловещего щелчка срабатывающей ловушки."
+    G "Пламя и темная магия вырываются со всех сторон, ослепляя нас."
+    G "Эхо смеха - последнее, что мы слышим, когда коридор погружается в темноту."
+    G "Мы даже не успеваем закричать..."
     jump main1_3
 
 label main1_3:
@@ -389,28 +389,28 @@ label main1_3:
     scene bg bedroom night with fade
 
 
-    "I wake up, gasping like a fish out of water."
-    "I can still taste smoke in my mouth; FEEL magic tendrils crawling along my skin..."
+    "Я вскочил, задыхаясь, как рыба, вытащенная из воды."
+    "Во рту все еще чувствуется привкус дыма, я чувствую, как по коже ползут магические щупальца..."
     stop music fadeout 3.0
-    "...and then I feel the unmistakable prick of a sharp metal edge against my throat."
+    "...и тут я чувствую безошибочный укол острого металлического лезвия в горло.."
     scene overlay black with dissolve
     voice "audio/voices/ner/13.ogg"
     ner "WHAT. HAVE. YOU. DONE?"
-    "Attached to the blade is a shaky, purplish-gray arm."
-    "Attached to that arm is one seriously pissed off Elven warlock."
+    "Лезвие держит дрожащая багрово-серая рука."
+    "Это рука серьезно разозленного эльфийского колдуна."
     play music "audio/music/Echoes of Time v2.mp3"
     scene cg knife with dissolve
-    "I want to shake my head in disbelief, but even my shocked mind realizes that I don't want to accidentally decapitate myself."
-    "\"Impossible!\" My mind screams."
-    "I'm still dreaming."
-    "I have to be..."
-    "...but I don't flatter myself that my imagination could come up with these kinds of details."
-    "The way her badly singed clothes are hanging from her body in tatters, barely concealing the important bits, and still smoking from the fires in the dream..."
-    "The way her eyes dart around the room like a cornered animal..."
-    "I'm about to ask her how she – a character I created for a fictional video game – came to be standing in my bedroom when she suddenly speaks, beating me to the punch."
+    "Я хочу покачать головой, но даже мой потрясенный разум понимает, что я могу случайно обезглавить себя."
+    "\"Невозможно!\" Мой разум кричит."
+    "Я все еще сплю."
+    "Я должен быть..."
+    "...но я не льщу себе надеждой, что мое воображение может придумать такие детали."
+    "То, как ее сильно подпаленная одежда свисает с ее тела клочьями, едва скрывая важные части, и все еще дымится от костров во сне..."
+    "То, как ее глаза мечутся по комнате, словно загнанное в угол животное..."
+    "Я собираюсь спросить ее, как она – персонаж, которого я создал для вымышленной видеоигры – оказалась в моей спальне, когда она внезапно заговорила, опередив меня."
     voice "audio/voices/ner/14.ogg"
-    ner "Send me back right now, or I swear... I will GUT you where you stand..."
-    $ achievement.grant("Guest")
+    ner "Отправь меня обратно прямо сейчас, или я клянусь... Я ВЫПОТРОШУ тебя на месте..."
+    $ achievement.grant("Гость")
 
 
 
