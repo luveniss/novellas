@@ -118,15 +118,15 @@ image splash2 = "images/assets/logo.png"
 
 define G = Character(' ', color="#666", what_color="#ffffff", window_background="FrameC.png", window_left_padding=100, window_right_padding=400, window_top_padding=105, window_yminimum=300, window_ypos=0.5, window_yanchor=-0.5)
 
-define ner = Character('Nerith', color="#92b3b2")
-define Gner = Character('Nerith', color="#9cd7d5", what_color="#ffffff", window_background="FrameC.png", window_left_padding=100, window_right_padding=400, window_top_padding=140, window_yminimum=300, window_ypos=0.5, window_yanchor=-0.5)
+define ner = Character('Нерит', color="#92b3b2")
+define Gner = Character('Нерит', color="#9cd7d5", what_color="#ffffff", window_background="FrameC.png", window_left_padding=100, window_right_padding=400, window_top_padding=140, window_yminimum=300, window_ypos=0.5, window_yanchor=-0.5)
 
-define hik = Character('Hikaru', color="#d9cd7b")
-define Ghik = Character('Hikaru', color="#d9cd7b", what_color="#ffffff", window_background="FrameC.png", window_left_padding=100, window_right_padding=400, window_top_padding=140, window_yminimum=300, window_ypos=0.5, window_yanchor=-0.5)
+define hik = Character('Хикару', color="#d9cd7b")
+define Ghik = Character('Хикару', color="#d9cd7b", what_color="#ffffff", window_background="FrameC.png", window_left_padding=100, window_right_padding=400, window_top_padding=140, window_yminimum=300, window_ypos=0.5, window_yanchor=-0.5)
 
-define aga = Character('Agano-sensei', color="#eccdff")
+define aga = Character('Агано-сенсей', color="#eccdff")
 
-define mik = Character('Mika', color="#f87496")
+define mik = Character('Мика', color="#f87496")
 
 define boy = Character('Yamaguchi-san', color="#e87575")
 define dev = Character('Game developer', color="#ba95dd")
